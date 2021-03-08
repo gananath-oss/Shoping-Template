@@ -21,10 +21,17 @@ a:hover {
 }
 
 .sub_head {
-	background-color: #6C1158;
+	background-color: #130432;
+	font-size: 12px;
 	padding: 10px;
 	max-width: 1500px;
 	margin: 0 auto;
+}
+
+.sub_head a:hover {
+	color: #FFF784;
+	font-weight: bold;
+	font-size: 12px;
 }
 
 .sub_head .left {
@@ -39,14 +46,18 @@ a:hover {
 
 .sub_head .left a {
 	float: left;
-	padding: 0 40px;
+	padding: 0 20px;
 	color: #fff;
 }
 
 .sub_head .right a {
 	float: right;
-	padding: 0 30px;
+	padding: 0 20px;
 	color: #fff;
+}
+
+.sub_head .right a:last-child {
+	padding-right: 0;
 }
 
 @media only screen and (max-width: 775px) {
@@ -72,7 +83,7 @@ a:hover {
 }
 
 .main_nav_text {
-	width: 80%;
+	width: 58%;
 	padding-left: 15%;
 	float: left;
 }
@@ -101,9 +112,20 @@ a:hover {
 }
 
 .main_nav_icon {
-	width: 20%;
-	padding-right: 20%;
+	width: 42%;
 	float: right;
+}
+
+.main_nav_icon ul {
+	padding: 0;
+}
+
+.main_nav_icon ul li a i {
+	color: #5F5357;
+}
+
+.main_nav_icon ul li a i:hover {
+	color: #029CCF;
 }
 
 .sub_page_bar {
@@ -111,7 +133,7 @@ a:hover {
 	margin: 0;
 	/*position: sticky;
 	z-index: 1;*/
-	max-max-width: 1500px;
+	max-width: 1500px;
 	width: 100%;
 }
 
