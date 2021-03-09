@@ -353,3 +353,52 @@ a:hover {
 	border: none;
 	color: #fff;
 }
+
+.grids .shopping_body button span:hover {
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 950px) {
+
+	.grids {
+		padding-top: 30px;
+		grid-auto-rows: minmax(190px,auto);
+		grid-gap: 15px;
+		max-width: 600px;
+	}
+	.grids .grid_style {
+		height: 190px;
+	}
+	.grids .shopping_body {
+			top: -170px;
+	}
+	.grids .grid_style img {
+		max-width: 190px;
+	}
+	.grids .shopping_body h2 {
+		font-size: 27px;
+	}
+	.grids .shopping_body p {
+		font-size: 15px;
+	}
+	.grids .shopping_body button {
+		padding: 0 5px;
+	}
+	.grids .shopping_body button span {
+		font-size: 10px;		
+	}
+
+}
+
+@media only screen and (max-width: 635px) {
+
+	.grids {
+		padding-top: 30px;
+		grid-template-columns: repeat(2,1fr);
+		grid-auto-rows: minmax(190px,auto);
+		grid-gap: 15px;
+		max-width: 395px;
+		margin: 0 auto;
+	}
+
+}
