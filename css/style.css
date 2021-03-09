@@ -83,8 +83,6 @@ a:hover {
 }
 
 .main_nav_text {
-	width: 58%;
-	padding-left: 15%;
 	float: left;
 }
 
@@ -112,7 +110,6 @@ a:hover {
 }
 
 .main_nav_icon {
-	width: 42%;
 	float: right;
 }
 
@@ -126,6 +123,33 @@ a:hover {
 
 .main_nav_icon ul li a i:hover {
 	color: #029CCF;
+}
+
+@media only screen and (max-width: 850px) {
+
+	.main_nav div {
+		float: none;
+	}
+	.main_nav_text {
+		padding: 0 13%;
+	}
+	.main_nav_text a {
+		text-align: center;
+	}
+	.main_nav_icon ul {
+		display: inline;
+		margin: 0;
+		padding-left: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 720px) {
+
+	.main_nav_text a {
+		padding-right: 10px;
+	}
+
 }
 
 .sub_page_bar {
